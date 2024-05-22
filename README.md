@@ -25,7 +25,7 @@ Create a file temp.json, populate it. In my case it was:
 
 Now you can access work address my putting following command in cmd:
 
-  "clipboard Adress Work"
+  "clipboard Address Work"
 
 # Problem
 
