@@ -7,7 +7,7 @@ Create a folder, for example I created "D:/CustomEnvVar", and then add this path
 
 Paste the code there. compile it using gcc, "gcc ./clipboard.c -o clipboard.exe". 
 
-Create a file temp.json, populate it. In my case it was:
+Create a file temp.json in same directory, populate it. In my case it was:
 
     {
   
@@ -29,7 +29,7 @@ Now you can access work address my putting following command in cmd:
 
 # Problem
 
-I have taken its memory allocation seriously
+I haven't taken its memory allocation seriously
 
 No proper error handling 
 
