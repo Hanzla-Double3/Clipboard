@@ -12,17 +12,12 @@ Paste code file in that directory, compile it using gcc, "gcc ./clipboard.c -o c
 Create a file temp.json in same directory or change the filename in code, populate it. In my case it was:
 
     {
-  
-      "ID": "12345678910",
-  
-      "Address": { 
-  
-        "Home" : "xyz street, house number n, City, State, Country",
-    
-        "Work" : "abc street, office number m, City, State, Country"
-    
-      }
-
+        "ID": "12345678910",
+        "Address": 
+        { 
+            "Home" : "xyz street, house number n, City, State, Country",
+            "Work" : "abc street, office number m, City, State, Country"
+        }
     }
 
 Make sure to change path in code too. It's absolute path. 
