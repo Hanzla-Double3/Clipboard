@@ -1,13 +1,15 @@
 # Clipboard
 Clipborad - access data quickly using cmd
 
+I would have done it in C++ or python to make it easier and consequently efficient, But I am starting to like c and trying to learning it better
+
 # Configure
 
-Create a folder, for example I created "D:/CustomEnvVar", and then add this path to enviroment variable.
+Create a folder, for example I created "D:/CustomEnvVar", and then add this path to enviroment variable in Path entry for user.
 
-Paste the code there. compile it using gcc, "gcc ./clipboard.c -o clipboard.exe". 
+Paste code file in that directory, compile it using gcc, "gcc ./clipboard.c -o clipboard.exe". 
 
-Create a file temp.json in same directory, populate it. In my case it was:
+Create a file temp.json in same directory or change the filename in code, populate it. In my case it was:
 
     {
   
@@ -22,6 +24,8 @@ Create a file temp.json in same directory, populate it. In my case it was:
       }
 
     }
+
+Make sure to change path in code too. It's absolute path. 
 
 Now you can access work address my putting following command in cmd:
 
